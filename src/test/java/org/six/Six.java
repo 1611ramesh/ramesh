@@ -9,6 +9,10 @@ import org.openqa.selenium.support.ui.Select;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Six {
+	private void sys() {
+		// TODO Auto-generated method stub
+System.out.println("tg");
+	}
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
